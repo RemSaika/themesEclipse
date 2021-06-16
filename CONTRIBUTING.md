@@ -118,7 +118,7 @@ the Doki Theme Suite.
 
 # Creating New Themes
 
-**IMPORTANT**! Do _not_ create brand new Doki-Themes using Hyper.js. New themes should be created from the original
+**IMPORTANT**! Do _not_ create brand new Doki-Themes using the Eclipse plugin. New themes should be created from the original
 JetBrains plugin which uses all the colors defined. There is also Doki Theme creation assistance provided by the IDE as
 well.
 
@@ -168,7 +168,7 @@ to the Doki Build source. Please see
 the [handy development setup for more details on what to do](https://github.com/doki-theme/doki-build-source#doki-theme-build-source)
 . You'll need to link `doki-build-source` in this plugin's build source.
 
-For clarity, you'll have to run this command in this directory `<your-workspace>/doki-theme-hyper/buildSrc`:
+For clarity, you'll have to run this command in this directory `<your-workspace>/doki-theme-eclipse/buildSrc`:
 
 ```shell
 yarn link doki-build-source
@@ -181,8 +181,7 @@ script.
 
 This script does all the annoying tedious stuff such as:
 
-- Evaluating the `DokiThemeDefinitions` from the templates. See [Hyper.js Specifics](#hyper-theme-specifics) for more
-  details.
+- Evaluating the `DokiThemeDefinitions` from the templates.
 
 [Here is an example pull request that captures all the artifacts from the development process of imported themes](https://github.com/doki-theme/doki-theme-eclipse/pull/4)
 .
